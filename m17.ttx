@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- ↓この行はDemando0.ttxの2行目と同じにする -->
-<ttFont sfntVersion="\x00\x01\x00\x00" ttLibVersion="4.11">
+<ttFont sfntVersion="\x00\x01\x00\x00" ttLibVersion="4.53">
 
   <COLR>
     <version value="0"/>
@@ -10,6 +10,13 @@
       <layer colorID="4" name="SLOTuniE200"/><!-- 🟦　-->
       <layer colorID="2" name="u2139_01"/><!-- ⬜　-->
     </ColorGlyph>
+
+    <!-- ↓情報の'✅'(u2705) -->
+    <ColorGlyph name="u2705">
+      <layer colorID="56" name="u2705_01"/><!-- 00FF00　　-->
+      <layer colorID="26" name="u2705_02"/><!-- ⬛-->
+    </ColorGlyph>
+
 
      <!-- ↓ハンマーとつるはし（ピック）の'⚒'(2692) -->
     <ColorGlyph name="u2692">
@@ -46,67 +53,184 @@
       <layer colorID="155" name="u1F527"/><!--999999-->
     </ColorGlyph>
 
-   <!-- ↓山'⛰'(U26F0) -->
-    <ColorGlyph name="uni26F0">
+   <!-- ↓山'⛰'(u26F0) -->
+    <ColorGlyph name="u26F0">
+      <layer colorID="56" name="SLOTuniE201"/><!-- 00FF00　-->
+      <layer colorID="155" name="SLOTuniE100"/><!-- 009900　-->
+
+      <layer colorID="1" name="SLOTuniE101"/>
+    </ColorGlyph>
+<!--<layer colorID="44" name=""/>--><!-- 009900　-->
+<!--<layer colorID="42" name="LowMountain02"/>--><!--CC6600-->
+<!--<layer colorID="49" name="LowMountain03"/>--><!--FF9900-->
+<!--<layer colorID="155" name="SLOTuniE100"/>--><!--999999-->
+
+
+   <!-- ↓私用領域の山''(u26F0) -->
+    <ColorGlyph name="u1002F0">
       <layer colorID="56" name="SLOTuniE201"/><!-- 00FF00　-->
       <layer colorID="155" name="SLOTuniE100"/><!--999999-->
       <layer colorID="1" name="SLOTuniE101"/>
     </ColorGlyph>
+ 
 
-   <!-- ↓雪山'🏔'(u1F3D4) -->
-    <ColorGlyph name="u1F3D4">
-      <layer colorID="56" name="SLOTuniE201"/><!-- 00FF00　-->
-      <layer colorID="26" name="u1F3D4_01"/><!--000000-->
-      <layer colorID="155" name="u1F3D4_02"/><!--999999-->
-      <layer colorID="241" name="u1F3D4_03"/><!--FFFFFF-->      
-    </ColorGlyph>
-
-<!-- ↓住宅街'🏘️'(u1F3D8) -->
-    <ColorGlyph name="u1F3D8">
-    <layer colorID="56" name="SLOTuniE201"/><!-- 00FF00　-->
-    <layer colorID="155" name="u1F3D8_01"/><!-- ▓,9619,2593-->
-    <layer colorID="6" name="u1F3D8_02"/><!-- 🟨,129000,1f7e8-->
-    <layer colorID="3" name="u1F3D8_03"/><!-- 🟥,128997,1f7e5-->
-    <layer colorID="2" name="u1F3D8_04"/><!-- ⬜,11036,2b1c-->
-    <layer colorID="196" name="u1F3D8_05"/><!-- 66CCCC-->
-    <layer colorID="42" name="u1F3D8_06"/><!-- 🟫,129003,1f7eb--><!--CC6600-->
-    </ColorGlyph>  
-    
-    <!-- ↓カラーの'🌊'(U1F30A) -->
+    <!-- ↓波の'🌊'(u1F30A) -->
     <ColorGlyph name="u1F30A">
-      <layer colorID="4" name="SLOTuniE103"/><!-- ↓重ね書き 波の色：海色　-->
+      <layer colorID="4" name="u1F30A"/><!-- ↓波の色：🟦海　-->
     </ColorGlyph>
+
+    <!-- ↓青水面に白波の'🌊'(u10030A) -->
+    <ColorGlyph name="u10030A">
+      <layer colorID="4" name="SLOTuniE201"/><!-- 水面：4 🟦海　-->
+      <layer colorID="2" name="u1F30A_01"/><!-- ↓波色：2 ⬜FFFFFF白　-->
+    </ColorGlyph>
+
+
+    <!-- ↓自動車の'🚗'(u1F697) -->
+    <ColorGlyph name="u1F697"> 
+      <layer colorID="3" name="u1F697_01"/><!-- 3🟥-->
+      <layer colorID="196" name="u1F697_02"/><!-- 19666CCCC　-->
+      <layer colorID="55" name="u1F697_03"/><!--55 FFCC00-->
+      <layer colorID="26" name="u1F697_04"/><!--26 000000-->
+      <layer colorID="2" name="u1F697_05"/><!--2 ⬜FFFFFF-->
+    </ColorGlyph>
+
 
     <!-- ↓経絡と地球の'🌐'(u1F310) -->
     <ColorGlyph name="u1F310">
       <layer colorID="2" name="u1F310_01"/><!-- ⬜　-->
       <layer colorID="4" name="u1F310"/><!-- 🟦　-->
     </ColorGlyph>
-    
-    <!-- ↓広葉樹の'🌲'(U1F332) -->
+
+    <!-- ↓広葉樹の'🌲'(u1F332) -->
     <ColorGlyph name="u1F332">
-      <layer colorID="44" name="u1F332_01"/><!-- 009900　-->
-      <layer colorID="57" name="u1F332_02"/><!-- 00FF00　-->
-      <layer colorID="49" name="u1F332_03"/><!--FF9900-->
-      <layer colorID="42" name="u1F332_04"/><!-- CC6600-->
+      <layer colorID="44" name="u1F332glyph01"/><!-- 009900　-->
+      <layer colorID="49" name="u1F332glyph03"/><!--FF9900-->
+      <layer colorID="42" name="u1F332glyph04"/><!-- CC6600-->
+    </ColorGlyph>
+<!--<layer colorID="56" name="SLOTuniE201"/>--><!-- 00FF00　-->
+<!--<layer colorID="57" name="u1F332glyph02"/>--><!-- 00FF00　-->
+     
+
+
+  <!-- ↓広葉樹にバック緑2''(u1F7E9_uni200D_u1F332.ccmp)-->
+  <!--<ColorGlyph name="u1F7E9_uni200D_u1F332.ccmp">-->
+  <!-- ↓広葉樹にバック緑2'🟩‍🌲'(glyph40751)-->
+  <ColorGlyph name="glyph40751">
+      <layer colorID="6" name="SLOTuniE201" />
+      <layer colorID="15" name="u1F332glyph01" />
+      <layer colorID="57" name="u1F332glyph02" />
+      <layer colorID="149" name="u1F332glyph03" />
+      <layer colorID="42" name="u1F332glyph04" />
+    </ColorGlyph>
+<!-- colorID="56" 00FF00　-->
+<!-- colorID="15" 009900　-->
+<!-- colorID="57" 33FF00　-->
+<!-- colorID="49" FF9900-->
+<!-- colorID="42" CC6600-->
+
+<!-- ↓広葉樹にバック緑'🌲︀'(u1F332_FE00) -->
+  <ColorGlyph name="u1F332_FE00">
+      <layer colorID="156" name="SLOTuniE201" />
+      <layer colorID="15" name="u1F332glyph01" />
+      <layer colorID="57" name="u1F332glyph02" />
+      <layer colorID="49" name="u1F332glyph03" />
+      <layer colorID="42" name="u1F332glyph04" />
     </ColorGlyph>
 
-    <!-- ↓広葉樹にバック緑'🌲　🟩'(u1F7E9_uni200d_u1F332) -->
-    <ColorGlyph name="u1F7E9_uni200D_u1F332.ccmp">
-      <layer colorID="56" name="SLOTuniE201"/><!-- 00FF00　-->
-      <layer colorID="15" name="u1F332_01"/><!-- 009900　-->
-      <layer colorID="57" name="u1F332_02"/><!-- 33FF00　-->
-      <layer colorID="49" name="u1F332_03"/><!--FF9900-->
-      <layer colorID="42" name="u1F332_04"/><!-- CC6600-->
+<!-- ↓広葉樹にバック緑'🌲󠄀'(u1F332_uE0100) -->
+  <ColorGlyph name="u1F332_uE0100">
+      <layer colorID="5" name="SLOTuniE201" />
+      <layer colorID="15" name="u1F332glyph01" />
+      <layer colorID="57" name="u1F332glyph02" />
+      <layer colorID="49" name="u1F332glyph03" />
+      <layer colorID="42" name="u1F332glyph04" />
+    </ColorGlyph>
+
+<!-- ↓広葉樹にバック緑'🌲︎'(u1F332_uFE0E) -->
+  <ColorGlyph name="u1F332_uFE0E">
+      <layer colorID="3" name="SLOTuniE201" />
+      <layer colorID="15" name="u1F332glyph01" />
+      <layer colorID="57" name="u1F332glyph02" />
+      <layer colorID="49" name="u1F332glyph03" />
+      <layer colorID="42" name="u1F332glyph04" />
+    </ColorGlyph>
+<!--3🟥-->
+<!--6🟨-->
+<!--7🟩-->
+
+<!-- ↓広葉樹にバック緑4'􀌲'(u1F332　→　u100332) -->
+    <ColorGlyph name="u100332">
+      <layer colorID="56" name="SLOTuniE201" />  
+      <layer colorID="15" name="u1F332glyph01" />
+      <layer colorID="57" name="u1F332glyph02" />
+      <layer colorID="49" name="u1F332glyph03" />
+      <layer colorID="42" name="u1F332glyph04" />
+    </ColorGlyph>
+<!-- colorID="56" 00FF00　-->
+<!-- colorID="15" 009900　-->
+<!-- colorID="57" 33FF00　-->
+<!-- colorID="49" FF9900-->
+<!-- colorID="42" CC6600-->
+
+
+  <!-- ↓男性'👨'(u1F468) -->
+<!--  
+    <ColorGlyph name="u1F468">
+      <layer colorID="56" name="SLOTuniE201" />  
+    
+      <layer colorID="15" name="u1F332glyph01" />
+      <layer colorID="57" name="u1F332glyph02" />
+      <layer colorID="49" name="u1F332glyph03" />
+      <layer colorID="42" name="u1F332glyph04" />
+    
+      <layer colorID="3" name="u1F468" />
+    </ColorGlyph>
+    -->
+<!-- colorID="3"　🟥　-->
+
+  <!-- ↓男性'👶'(u1F476) -->
+    <ColorGlyph name="u1F476">
+      <layer colorID="56" name="SLOTuniE201" />
+      <!--
+      <layer colorID="15" name="u1F332glyph01" />
+      <layer colorID="57" name="u1F332glyph02" />
+      <layer colorID="49" name="u1F332glyph03" />
+      <layer colorID="42" name="u1F332glyph04" />
+    -->
+      <layer colorID="4" name="u1F476" />
     </ColorGlyph>
 
 
-    <!-- ↓落葉樹の'🌳'(U1F333) -->
-      <ColorGlyph name="u1F333">
+  <!-- ↓緑バックに親子'👨‍👦'(u1F468_uni200D_u1F476) -->
+    <ColorGlyph name="u1F468_uni200D_u1F476">
+      <layer colorID="56" name="SLOTuniE201" />  
+      <layer colorID="49" name="u1F468_uni200D_u1F476" />
+    </ColorGlyph>
+
+    <!-- ↓落葉樹'🌳'(u1F333) -->
+  <ColorGlyph name="u1F333">
       <layer colorID="1" name="u1F333_01"/><!-- ↓枠線　：黒　-->
       <layer colorID="9" name="u1F333_02"/><!-- ↓木　　：茶　-->
       <layer colorID="15" name="u1F333_03"/><!-- ↓葉っぱ：濃い緑　元々-->
     </ColorGlyph>
+
+    <!-- ↓🟩緑背景の落葉樹'🌳️'(u100333) -->
+      <ColorGlyph name="u100333">
+      <layer colorID="56" name="SLOTuniE201" />
+      <layer colorID="1" name="u1F333_01"/><!-- ↓枠線　：黒　-->
+      <layer colorID="9" name="u1F333_02"/><!-- ↓木　　：茶　-->
+      <layer colorID="15" name="u1F333_03"/><!-- ↓葉っぱ：濃い緑　元々-->
+    </ColorGlyph>
+
+
+    <!-- ↓桜の'🌸'(u1F338) -->
+      <ColorGlyph name="u1F338">
+      <layer colorID="1" name="u1F333_01"/><!-- ↓枠線　：黒　-->
+      <layer colorID="9" name="u1F333_02"/><!-- ↓木　　：茶　-->
+      <layer colorID="229" name="u1F333_03"/><!-- ↓桜色の葉っぱ：　FF99FF-->
+    </ColorGlyph>
+
 
 <!-- ↓サボテン'🌵'(u1f335) -->
     <ColorGlyph name="u1F335">
@@ -114,13 +238,79 @@
     <layer colorID="44" name="u1F335_1"/><!-- ,59154,e712-->
     <layer colorID="7" name="u1F335_2"/><!-- 🟩,129001,1f7e9-->
     </ColorGlyph>  
-  
-    <!-- ↓西洋の城'🏰'(u1F3F0) -->
+
+<!-- ↓雪山'🏔'(u1F3D4) -->
+    <ColorGlyph name="u1F3D4">
+      <layer colorID="240" name="SLOTuniE201"/><!-- 00FF00　-->
+      <layer colorID="26" name="u1F3D4_01"/><!--000000-->
+      <layer colorID="155" name="u1F3D4_02"/><!--999999-->
+      <layer colorID="241" name="u1F3D4_03"/><!--FFFFFF-->      
+    </ColorGlyph>
+<!--<layer colorID="56" name="SLOTuniE201"/>--><!-- 00FF00　-->
+<!--<layer colorID="44" name=""/>--><!-- 009900　-->
+<!--<layer colorID="42" name="LowMountain02"/>--><!--CC6600-->
+<!--<layer colorID="49" name="LowMountain03"/>--><!--FF9900-->
+<!--<layer colorID="155" name="SLOTuniE100"/>--><!--999999-->
+
+
+
+<!-- ↓住宅街'🏘️'(u1F3D8) -->
+    <ColorGlyph name="u1F3D8">
+<!--<layer colorID="56" name="SLOTuniE201"/>--><!-- 00FF00　-->
+<layer colorID="26" name="u1F3D8_01"/><!-- 000000-->
+<layer colorID="112" name="u1F3D8_02"/><!-- 666666-->
+<layer colorID="236" name="u1F3D8_03"/><!-- 00FFFF-->
+<layer colorID="198" name="u1F3D8_04"/><!-- CCCCCC-->
+    </ColorGlyph>  
+    
+<!-- ↓住宅'🏠'(u1F3E0) -->
+<ColorGlyph name="u1F3E0">
+  <layer colorID="112" name="u1F3E0_01" /><!-- 666666-->
+  <layer colorID="198" name="u1F3E0_02" /><!-- CCCCCC-->
+  <layer colorID="236" name="u1F3E0_04" /><!-- 00FFFF-->
+  <layer colorID="9" name="u1F3E0_03" /><!-- 🟫茶-->
+</ColorGlyph>
+
+<!-- ↓都市の景観'🏙️'(u1F3D9) -->
+<ColorGlyph name="u1F3D9">
+  <layer colorID="112" name="u1F3D9_01"/> <!--666666-->
+  <layer colorID="3" name="u1F3D9_02"/> <!-- 🟥-->
+  <layer colorID="236" name="u1F3D9_03"/> <!-- 0FFFF-->
+</ColorGlyph>
+
+<!-- ↓オフィスビル'🏢'(u1F3E2) -->
+<ColorGlyph name="u1F3E2">
+  <layer colorID="112" name="u1F3E2_01"/><!-- 666666-->
+  <layer colorID="236" name="u1F3E2_02"/><!-- ,59346,e7d2-->
+  <layer colorID="16" name="u1F3E2_03"/><!-- ▓,9619,2593-->
+  <layer colorID="26" name="u1F3E2_04"/><!-- ⬛,11035,2b1b-->
+</ColorGlyph>  
+
+<!-- ↓西洋の城'🏰'(u1F3F0) -->
     <ColorGlyph name="u1F3F0">
       <layer colorID="155" name="u1F3F0_01"/><!--999999-->
       <layer colorID="26" name="u1F3F0_02"/><!--000000-->
       <layer colorID="3" name="u1F3F0_03"/><!-- 🟥　-->
     </ColorGlyph>
+
+<!-- ↓鳥居'⛩'(u26E9) -->
+  <ColorGlyph name="u26E9">
+    <layer colorID="26" name="u26E9_01"/><!-- ⬛,11035,2b1b-->
+    <layer colorID="3" name="u26E9_02"/><!-- 🟥,128997,1f7e5-->
+    <layer colorID="9" name="u26E9_03"/><!-- 🟫,129003,1f7eb-->
+    <layer colorID="16" name="u26E9_04"/><!-- ▓,9619,2593-->
+  </ColorGlyph>  
+  
+  <!-- ↓緑背景の鳥居'􀋩'(u1002E9) -->
+  <ColorGlyph name="u1002E9">
+    <layer colorID="56" name="SLOTuniE201"/><!-- 00FF00　-->
+    <layer colorID="26" name="u26E9_01"/><!-- ⬛,11035,2b1b-->
+    <layer colorID="3" name="u26E9_02"/><!-- 🟥,128997,1f7e5-->
+    <layer colorID="9" name="u26E9_03"/><!-- 🟫,129003,1f7eb-->
+    <layer colorID="16" name="u26E9_04"/><!-- ▓,9619,2593-->
+  </ColorGlyph>  
+
+
 
     <!-- ↓横向き豚'🐖'(1F416) -->
    <ColorGlyph name="u1F416">
@@ -129,8 +319,41 @@
       <layer colorID="156"  name="u1F416_02"/><!--CC9999 -->
     </ColorGlyph>
 
+    <!-- ↓緑背景の横向き豚''(u1F7E9_uni200D_u1F416) -->
+   <ColorGlyph name="u1F7E9_uni200D_u1F416">
+       <layer colorID="56" name="SLOTuniE201"/><!-- 00FF00　-->
+      <layer colorID="157" name="u1F416_03"/><!--FF9999 -->
+      <layer colorID="26" name="u1F416_01"/><!--colorID="26" 黒000000-->
+      <layer colorID="156"  name="u1F416_02"/><!--CC9999 -->
+    </ColorGlyph>
+
+
+    <!-- ↓緑背景の横向き豚'􀐖'(u100416) -->
+   <ColorGlyph name="u100416">
+       <layer colorID="56" name="SLOTuniE201"/><!-- 00FF00　-->
+      <layer colorID="157" name="u1F416_03"/><!--FF9999 -->
+      <layer colorID="26" name="u1F416_01"/><!--colorID="26" 黒000000-->
+      <layer colorID="156"  name="u1F416_02"/><!--CC9999 -->
+    </ColorGlyph>
+
     <!-- ↓狼'🐺'(u1f43a) -->
     <ColorGlyph name="u1F43A">
+    <layer colorID="16" name="u1F43A_0"/><!-- ▓,9619,2593-->
+    <layer colorID="2" name="u1F43A_1"/><!-- ⬜,11036,2b1c-->
+    <layer colorID="1" name="u1F43A_2"/><!-- ⬛,11035,2b1b-->
+    </ColorGlyph>  
+
+  <!-- ↓緑背景の狼'🟩‍🐺'(u1F7E9_uni200D_u1F43A) -->
+    <ColorGlyph name="u1F7E9_uni200D_u1F43A">
+    <layer colorID="56" name="SLOTuniE201"/><!-- 00FF00　-->
+    <layer colorID="16" name="u1F43A_0"/><!-- ▓,9619,2593-->
+    <layer colorID="2" name="u1F43A_1"/><!-- ⬜,11036,2b1c-->
+    <layer colorID="1" name="u1F43A_2"/><!-- ⬛,11035,2b1b-->
+    </ColorGlyph>  
+  
+  <!-- ↓緑背景の狼'􀐺'(u10043A) -->
+    <ColorGlyph name="u10043A">
+    <layer colorID="56" name="SLOTuniE201"/><!-- 00FF00　-->
     <layer colorID="16" name="u1F43A_0"/><!-- ▓,9619,2593-->
     <layer colorID="2" name="u1F43A_1"/><!-- ⬜,11036,2b1c-->
     <layer colorID="1" name="u1F43A_2"/><!-- ⬛,11035,2b1b-->
@@ -155,15 +378,26 @@
       <layer colorID="2" name="u1FA9F_03"/><!-- ⬜　-->
     </ColorGlyph>
 
-<!-- ↓岩'🪨'(u1faa8) -->
+    <!-- ↓岩'🪨'(u1faa8) -->
     <ColorGlyph name="u1FAA8">
     <layer colorID="26" name="u1FAA8"/><!-- 000000-->
     <layer colorID="198" name="u1FAA8_1"/><!-- CCCCCC-->
    </ColorGlyph>  
   
+    <!-- ↓岩壁'🪨️'(u1faa8) -->
+    <ColorGlyph name="u1FAA8_uFE0F_01">
+    <layer colorID="198" name="SLOTuniE201"/><!-- CCCCCC-->
+    <layer colorID="26" name="u1FAA8_uFE0F_01"/><!-- 000000-->
+    <layer colorID="2" name="u1FAA8_uFE0F_02"/><!-- ⬜　-->
+   </ColorGlyph>  
 
-
-
+   <!-- ↓緑背景の炎の'🔥'(u100525) -->
+    <ColorGlyph name="u100525">
+      <layer colorID="56" name="SLOTuniE201"/><!-- 00FF00　-->
+      <layer colorID="3" name="u1F525_01"/><!-- 🟥　-->
+      <layer colorID="5" name="u1F525_02"/><!-- 🟧　-->
+      <layer colorID="6" name="u1F525_03"/><!--🟨 -->
+    </ColorGlyph>
 
     <!-- ↓炎の'🔥'(u1F525) -->
     <ColorGlyph name="u1F525">
@@ -172,6 +406,10 @@
       <layer colorID="6" name="u1F525_03"/><!--🟨 -->
     </ColorGlyph>
     
+
+
+    
+
     <!-- ↓ドアの'🚪'(u1F6AA) -->
     <ColorGlyph name="u1F6AA">
       <layer colorID="9" name="u1F6AA_01"/><!-- 木　　：🟫茶　-->
@@ -180,32 +418,84 @@
       <layer colorID="155" name="u1F6AA_04"/><!--足場-->
     </ColorGlyph>
     
-    <!-- ↓広葉樹の'🛤'(1F6E4) -->
+    <!-- ↓道路の'🛣'(1F6E3) -->
+    <ColorGlyph name="u1F6E3">
+    <layer colorID="112" name="SLOTuniE201"/>
+    <layer colorID="2" name="u1F6E3"/>
+    </ColorGlyph>
+
+  <!-- ↓道路の'🛣️'(u1F6E3_tate) -->
+    <ColorGlyph name="u1F6E3_tate">
+    <layer colorID="112" name="SLOTuniE201"/>
+    <layer colorID="2" name="u1F6E3_tate"/>
+    </ColorGlyph>
+
+  <!-- ↓道路の'🛣‍│'(u1F6E3_uni200D_aj7481) -->
+    <ColorGlyph name="u1F6E3_uni200D_aj7481">
+    <layer colorID="112" name="SLOTuniE201"/>
+    <layer colorID="2" name="u1F6E3_uni200D_aj7481"/>
+    </ColorGlyph>
+<!--666666　-->
+<!-- ⬜　-->
+
+    <!-- ↓線路の'🛤'(1F6E4) -->
     <ColorGlyph name="u1F6E4">
       <layer colorID="42" name="u1F6E4_02"/><!-- 枕木　CC6600-->
       <layer colorID="155" name="u1F6E4_01"/><!--999999-->
     </ColorGlyph>
 
+    <!-- ↓緑背景の爆弾'💣️'(u1004A3) -->
+    <ColorGlyph name="u1004A3">
+      <layer colorID="56" name="SLOTuniE201"/><!-- 00FF00　-->
+      <layer colorID="3" name="u1F4A3_0"/><!-- 🟥,128997,1f7e5-->
+      <layer colorID="6" name="u1F4A3_1"/><!-- 🟨,129000,1f7e8-->
+      <layer colorID="1" name="u1F4A3_2"/><!-- ⬛,11035,2b1b-->
+      <layer colorID="16" name="u1F4A3_3"/><!-- ▓,9619,2593-->
+      <layer colorID="2" name="u1F4A3_4"/><!-- ⬜,11036,2b1c-->
+    </ColorGlyph>
 
-     <!-- ↓煉瓦の'🧱'(1F9F1) -->
+    <!-- ↓爆弾'💣'(u1f4a3) -->
+    <ColorGlyph name="u1F4A3">
+      <layer colorID="3" name="u1F4A3_0"/><!-- 🟥,128997,1f7e5-->
+      <layer colorID="6" name="u1F4A3_1"/><!-- 🟨,129000,1f7e8-->
+      <layer colorID="1" name="u1F4A3_2"/><!-- ⬛,11035,2b1b-->
+      <layer colorID="16" name="u1F4A3_3"/><!-- ▓,9619,2593-->
+      <layer colorID="2" name="u1F4A3_4"/><!-- ⬜,11036,2b1c-->
+    </ColorGlyph>
+
+     <!-- ↓梯子'🪜'(1FA9C) -->
+    <ColorGlyph name="u1FA9C">
+      <layer colorID="42" name="u1FA9C"/><!--CC6600-->
+    </ColorGlyph>
+
+     <!-- ↓煉瓦'🧱'(1F9F1) -->
     <ColorGlyph name="u1F9F1">
       <layer colorID="163" name="SLOTuniE201"/><!--FFCC99-->
       <layer colorID="30" name="u1F9F1"/><!-- CC0000-->
     </ColorGlyph>
 
-     <!-- ↓梯子の'🪜'(1FA9C) -->
-    <ColorGlyph name="u1FA9C">
-      <layer colorID="42" name="u1FA9C"/><!--CC6600-->
-    </ColorGlyph>
+<!-- ↓船'🚢'(1F6A2) -->
+  <ColorGlyph name="u1F6A2">
+    <layer colorID="4" name="SLOTuniE201"/><!-- 🟦　-->
+    <layer colorID="2" name="u1F6A2_01"/><!-- ⬜-->
+    <layer colorID="26" name="u1F6A2_02"/><!--000000-->
+  </ColorGlyph>  
 
-<!-- ↓爆弾'💣'(u1f4a3) -->
-    <ColorGlyph name="u1F4A3">
-    <layer colorID="3" name="u1F4A3_0"/><!-- 🟥,128997,1f7e5-->
-    <layer colorID="6" name="u1F4A3_1"/><!-- 🟨,129000,1f7e8-->
-    <layer colorID="1" name="u1F4A3_2"/><!-- ⬛,11035,2b1b-->
-    <layer colorID="16" name="u1F4A3_3"/><!-- ▓,9619,2593-->
-    <layer colorID="2" name="u1F4A3_4"/><!-- ⬜,11036,2b1c-->
-    </ColorGlyph>
+<!-- ↓工事中のフェンス''(u1F6A7) -->
+  <ColorGlyph name="u1F6A7">
+    <layer colorID="42" name="u1F6A7_01"/><!--CC6600-->
+    <layer colorID="6" name="u1F6A7_02"/><!-- 🟨,129000,1f7e8-->
+    <layer colorID="26" name="u1F6A7_03"/><!-- 000000-->
+  </ColorGlyph>  
+
+
+
+<!-- ↓ヨット'⛵'(u26F5) -->
+  <ColorGlyph name="u26F5">
+    <layer colorID="4" name="SLOTuniE201"/><!-- 🟦　-->
+    <layer colorID="2" name="u26F5_01"/><!-- ⬜-->
+    <layer colorID="26" name="u26F5_02"/><!--000000-->
+  </ColorGlyph>  
 
 <!-- ↓木材'🪵'(u1fab5) -->
 <ColorGlyph name="u1fab5">
@@ -214,6 +504,13 @@
 <layer colorID="9" name="u1fab5_2"/><!-- 🟫,129003,1f7eb-->
     </ColorGlyph>  
   
+<!-- ↓弓矢'🏹'(u1F3F9) -->
+<ColorGlyph name="u1F3F9">
+    <layer colorID="9" name="u1F3F9_01"/><!-- 🟫,129003,1f7eb-->
+    <layer colorID="5" name="u1F3F9_02"/><!-- 🟧,128999,1f7e7-->
+    <layer colorID="16" name="u1F3F9_03"/><!-- ▓,9619,2593-->
+    <layer colorID="4" name="u1F3F9_04"/><!-- 🟦,128998,1f7e6-->
+</ColorGlyph>  
     <!-- ↓ドラクエ３の草原􀀀 -->
     <ColorGlyph name="u100000">
       <layer colorID="56" name="SLOTuniE201"/><!-- 00FF00　-->
@@ -553,7 +850,8 @@
     <ColorGlyph name="u1F7E6"><layer colorID= "4" name="SLOTuniE201"/></ColorGlyph><!--四角＿青🟦-->
     <ColorGlyph name="u1F7E7"><layer colorID= "5" name="SLOTuniE201"/></ColorGlyph><!--四角＿橙🟧-->
     <ColorGlyph name="u1F7E8"><layer colorID= "6" name="SLOTuniE201"/></ColorGlyph><!--四角＿黄🟨-->
-    <ColorGlyph name="u1F7E9"><layer colorID= "7" name="SLOTuniE201"/></ColorGlyph><!--四角＿緑🟩-->
+    <ColorGlyph name="u1F7E9"><layer colorID= "7" name="SLOTuniE201"/></ColorGlyph>
+    <!--四角＿緑🟩-->
     <ColorGlyph name="u1F7EA"><layer colorID= "8" name="SLOTuniE201"/></ColorGlyph><!--四角＿紫🟪-->
     <ColorGlyph name="u1F7EB"><layer colorID= "9" name="SLOTuniE201"/></ColorGlyph><!--四角＿茶🟫-->
 
@@ -615,23 +913,24 @@
     <ColorGlyph name="u1FB9E"><layer colorID="16" name="SLOTuniE115"/></ColorGlyph><!--灰色三角-->
     <ColorGlyph name="u1FB9F"><layer colorID="16" name="SLOTuniE116"/></ColorGlyph><!--灰色三角-->
 
-
-<ColorGlyph name="uni2B12_E0101"><layer colorID="3" name="up_color"/><layer colorID="2" name="down_color"/></ColorGlyph><!-- 赤オレンジ🟧 -->
-<ColorGlyph name="uni2B12_E0102"><layer colorID="3" name="up_color"/><layer colorID="3" name="down_color"/></ColorGlyph><!-- 赤黄🟨 -->
+<!--合字エリア-->
+<ColorGlyph name="uni2B12_E0101"><layer colorID="3" name="up_color"/><layer colorID="2" name="down_color"/></ColorGlyph> <!-- 赤オレンジ🟧 -->
+<ColorGlyph name="uni2B12_E0102"><layer colorID="3" name="up_color"/><layer colorID="3" name="down_color"/></ColorGlyph> <!-- 赤黄🟨 -->
 <ColorGlyph name="uni2B12_E0103.ccmp"><layer colorID="3" name="up_color"/><layer colorID="4" name="down_color"/></ColorGlyph><!-- 赤オレンジ🟧 -->
 <ColorGlyph name="uni2B12_E0104.ccmp"><layer colorID="3" name="up_color"/><layer colorID="5" name="down_color"/></ColorGlyph><!-- 赤黄🟨 -->
 <ColorGlyph name="uni2B12_E0105.ccmp"><layer colorID="3" name="up_color"/><layer colorID="6" name="down_color"/></ColorGlyph><!-- 赤緑🟩 -->
 <ColorGlyph name="uni2B12_E0106.ccmp"><layer colorID="3" name="up_color"/><layer colorID="7" name="down_color"/></ColorGlyph><!-- 赤青🟦 -->
 <ColorGlyph name="uni2B12_E0107.ccmp"><layer colorID="3" name="up_color"/><layer colorID="8" name="down_color"/></ColorGlyph><!-- 赤紫🟪 -->
 
-<ColorGlyph name="uni1F170_E0100"><layer colorID="3" name="up_color"/><layer colorID="3" name="down_color"/></ColorGlyph><!-- 赤赤🟥🟥 -->
-<ColorGlyph name="uni1F170_E0101"><layer colorID="3" name="up_color"/><layer colorID="5" name="down_color"/></ColorGlyph><!-- 赤オレンジ🟥🟧 -->
-<ColorGlyph name="uni1F170_E0102.ccmp"><layer colorID="3" name="up_color"/><layer colorID="6" name="down_color"/></ColorGlyph><!-- 赤黄🟥🟨 -->
-<ColorGlyph name="uni1F170_E0103"><layer colorID="3" name="up_color"/><layer colorID="7" name="down_color"/></ColorGlyph><!-- 赤緑🟥🟩 -->
-<ColorGlyph name="uni1F170_E0104"><layer colorID="3" name="up_color"/><layer colorID="4" name="down_color"/></ColorGlyph><!-- 赤青🟥🟦 -->
-<ColorGlyph name="uni1F170_E0105"><layer colorID="3" name="up_color"/><layer colorID="8" name="down_color"/></ColorGlyph><!-- 赤紫🟥🟪 -->
-<ColorGlyph name="uni1F170_E0106"><layer colorID="3" name="up_color"/><layer colorID="1" name="down_color"/></ColorGlyph><!-- 赤黒🟥⬛ -->
-<ColorGlyph name="uni1F170_E0107"><layer colorID="3" name="up_color"/><layer colorID="2" name="down_color"/></ColorGlyph><!-- 赤白🟥⬜ -->
+<ColorGlyph name="u1F43A_E0100"><layer colorID="3" name="up_color"/><layer colorID="3" name="down_color"/></ColorGlyph><!-- 赤赤🟥🟥 -->
+<ColorGlyph name="u1F43A_E0101"><layer colorID="3" name="up_color"/><layer colorID="5" name="down_color"/></ColorGlyph><!-- 赤オレンジ🟥🟧 -->
+<ColorGlyph name="u1F43A_E0102.ccmp"><layer colorID="3" name="up_color"/><layer colorID="6" name="down_color"/></ColorGlyph><!-- 赤黄🟥🟨 -->
+<ColorGlyph name="u1F43A_E0103"><layer colorID="3" name="up_color"/><layer colorID="7" name="down_color"/></ColorGlyph><!-- 赤緑🟥🟩 -->
+<ColorGlyph name="u1F43A_E0104"><layer colorID="3" name="up_color"/><layer colorID="4" name="down_color"/></ColorGlyph><!-- 赤青🟥🟦 -->
+<ColorGlyph name="u1F43A_E0105"><layer colorID="3" name="up_color"/><layer colorID="8" name="down_color"/></ColorGlyph><!-- 赤紫🟥🟪 -->
+<ColorGlyph name="u1F43A_E0106"><layer colorID="3" name="up_color"/><layer colorID="1" name="down_color"/></ColorGlyph><!-- 赤黒🟥⬛ -->
+<ColorGlyph name="u1F43A_E0107"><layer colorID="3" name="up_color"/><layer colorID="2" name="down_color"/></ColorGlyph><!-- 赤白🟥⬜ -->
+
 
 
 <ColorGlyph name="exclam_E0100"><layer colorID="3" name="up_color"/><layer colorID="1" name="down_color"/></ColorGlyph><!-- 赤赤🟥⬛ -->
@@ -748,7 +1047,7 @@
 
 
 <ColorGlyph name="uniE00A"><layer colorID="1" name="up_color"/></ColorGlyph><!-- 黒無⬛　 -->
-<ColorGlyph name="uniE00B"><layer colorID="1" name="uni1F170_E0100"/></ColorGlyph><!-- 黒黒⬛⬛ -->
+<ColorGlyph name="uniE00B"><layer colorID="1" name="uni25AE_E0100"/></ColorGlyph><!-- 黒黒⬛⬛ -->
 <ColorGlyph name="uniE00C"><layer colorID="1" name="up_color"/><layer colorID="2" name="down_color"/></ColorGlyph><!-- 黒白⬛⬜ -->
 <ColorGlyph name="uniE00D"><layer colorID="1" name="up_color"/><layer colorID="3" name="down_color"/></ColorGlyph><!-- 黒赤⬛🟥 -->
 <ColorGlyph name="uniE00E"><layer colorID="1" name="up_color"/><layer colorID="4" name="down_color"/></ColorGlyph><!-- 黒青⬛🟦 -->
@@ -760,7 +1059,7 @@
 
 <ColorGlyph name="uniE014"><layer colorID="2" name="up_color"/></ColorGlyph><!-- 白無⬜　 -->
 <ColorGlyph name="uniE015"><layer colorID="2" name="up_color"/><layer colorID="1" name="down_color"/></ColorGlyph><!-- 白黒⬜⬛ -->
-<ColorGlyph name="uniE016"><layer colorID="2" name="uni1F170_E0100"/></ColorGlyph><!-- 白白⬜⬜ -->
+<ColorGlyph name="uniE016"><layer colorID="2" name="uni25AE_E0100"/></ColorGlyph><!-- 白白⬜⬜ -->
 <ColorGlyph name="uniE017"><layer colorID="2" name="up_color"/><layer colorID="3" name="down_color"/></ColorGlyph><!-- 白赤⬜🟥 -->
 <ColorGlyph name="uniE018"><layer colorID="2" name="up_color"/><layer colorID="4" name="down_color"/></ColorGlyph><!-- 白黒⬜🟦 -->
 <ColorGlyph name="uniE019"><layer colorID="2" name="up_color"/><layer colorID="5" name="down_color"/></ColorGlyph><!-- 白黒⬜🟧 -->
@@ -772,7 +1071,7 @@
 <ColorGlyph name="uniE01E"><layer colorID="3" name="up_color"/></ColorGlyph><!-- 赤無🟥　 -->
 <ColorGlyph name="uniE01F"><layer colorID="3" name="up_color"/><layer colorID="1" name="down_color"/></ColorGlyph><!-- 赤黒🟥⬛ -->
 <ColorGlyph name="uniE020"><layer colorID="3" name="up_color"/><layer colorID="2" name="down_color"/></ColorGlyph><!-- 赤白🟥⬜ -->
-<ColorGlyph name="uniE021"><layer colorID="3" name="uni1F170_E0100"/></ColorGlyph><!-- 赤赤🟥🟥 -->
+<ColorGlyph name="uniE021"><layer colorID="3" name="uni25AE_E0100"/></ColorGlyph><!-- 赤赤🟥🟥 -->
 <ColorGlyph name="uniE022"><layer colorID="3" name="up_color"/><layer colorID="4" name="down_color"/></ColorGlyph><!-- 赤黒🟥🟦 -->
 <ColorGlyph name="uniE023"><layer colorID="3" name="up_color"/><layer colorID="5" name="down_color"/></ColorGlyph><!-- 赤黒🟥🟧 -->
 <ColorGlyph name="uniE024"><layer colorID="3" name="up_color"/><layer colorID="6" name="down_color"/></ColorGlyph><!-- 赤黒🟥🟨 -->
@@ -784,7 +1083,7 @@
 <ColorGlyph name="uniE029"><layer colorID="4" name="up_color"/><layer colorID="1" name="down_color"/></ColorGlyph><!-- 青黒🟦⬛ -->
 <ColorGlyph name="uniE02A"><layer colorID="4" name="up_color"/><layer colorID="2" name="down_color"/></ColorGlyph><!-- 青白🟦⬜ -->
 <ColorGlyph name="uniE02B"><layer colorID="4" name="up_color"/><layer colorID="3" name="down_color"/></ColorGlyph><!-- 青赤🟦🟥 -->
-<ColorGlyph name="uniE02C"><layer colorID="4" name="uni1F170_E0100"/></ColorGlyph><!-- 青黒🟦🟦 -->
+<ColorGlyph name="uniE02C"><layer colorID="4" name="uni25AE_E0100"/></ColorGlyph><!-- 青黒🟦🟦 -->
 <ColorGlyph name="uniE02D"><layer colorID="4" name="up_color"/><layer colorID="5" name="down_color"/></ColorGlyph><!-- 青黒🟦🟧 -->
 <ColorGlyph name="uniE02E"><layer colorID="4" name="up_color"/><layer colorID="6" name="down_color"/></ColorGlyph><!-- 青黒🟦🟨 -->
 <ColorGlyph name="uniE02F"><layer colorID="4" name="up_color"/><layer colorID="7" name="down_color"/></ColorGlyph><!-- 青黒🟦🟩 -->
@@ -796,7 +1095,7 @@
 <ColorGlyph name="uniE034"><layer colorID="5" name="up_color"/><layer colorID="2" name="down_color"/></ColorGlyph><!-- 橙橙🟧⬜ -->
 <ColorGlyph name="uniE035"><layer colorID="5" name="up_color"/><layer colorID="3" name="down_color"/></ColorGlyph><!-- 橙黄🟧🟥 -->
 <ColorGlyph name="uniE036"><layer colorID="5" name="up_color"/><layer colorID="4" name="down_color"/></ColorGlyph><!-- 橙緑🟧🟦 -->
-<ColorGlyph name="uniE037"><layer colorID="5" name="uni1F170_E0100"/></ColorGlyph><!-- 橙青🟧🟧 -->
+<ColorGlyph name="uniE037"><layer colorID="5" name="uni25AE_E0100"/></ColorGlyph><!-- 橙青🟧🟧 -->
 <ColorGlyph name="uniE038"><layer colorID="5" name="up_color"/><layer colorID="6" name="down_color"/></ColorGlyph><!-- 橙紫🟧🟨 -->
 <ColorGlyph name="uniE039"><layer colorID="5" name="up_color"/><layer colorID="7" name="down_color"/></ColorGlyph><!-- 橙黒🟧🟩 -->
 <ColorGlyph name="uniE03A"><layer colorID="5" name="up_color"/><layer colorID="8" name="down_color"/></ColorGlyph><!-- 橙白🟧🟪 -->
@@ -808,7 +1107,7 @@
 <ColorGlyph name="uniE03F"><layer colorID="6" name="up_color"/><layer colorID="3" name="down_color"/></ColorGlyph><!-- 黄黄🟨🟥 -->
 <ColorGlyph name="uniE040"><layer colorID="6" name="up_color"/><layer colorID="4" name="down_color"/></ColorGlyph><!-- 黄緑🟨🟦 -->
 <ColorGlyph name="uniE041"><layer colorID="6" name="up_color"/><layer colorID="5" name="down_color"/></ColorGlyph><!-- 黄青🟨🟧 -->
-<ColorGlyph name="uniE042"><layer colorID="6" name="uni1F170_E0100"/></ColorGlyph><!-- 黄紫🟨🟨 -->
+<ColorGlyph name="uniE042"><layer colorID="6" name="uni25AE_E0100"/></ColorGlyph><!-- 黄紫🟨🟨 -->
 <ColorGlyph name="uniE043"><layer colorID="6" name="up_color"/><layer colorID="7" name="down_color"/></ColorGlyph><!-- 黄黒🟨🟩 -->
 <ColorGlyph name="uniE044"><layer colorID="6" name="up_color"/><layer colorID="8" name="down_color"/></ColorGlyph><!-- 黄白🟨🟪 -->
 <ColorGlyph name="uniE045"><layer colorID="6" name="up_color"/><layer colorID="9" name="down_color"/></ColorGlyph><!-- 黄白🟨🟫 -->
@@ -820,7 +1119,7 @@
 <ColorGlyph name="uniE04A"><layer colorID="7" name="up_color"/><layer colorID="4" name="down_color"/></ColorGlyph><!-- 緑緑🟩🟦 -->
 <ColorGlyph name="uniE04B"><layer colorID="7" name="up_color"/><layer colorID="5" name="down_color"/></ColorGlyph><!-- 緑青🟩🟧 -->
 <ColorGlyph name="uniE04C"><layer colorID="7" name="up_color"/><layer colorID="6" name="down_color"/></ColorGlyph><!-- 緑紫🟩🟨 -->
-<ColorGlyph name="uniE04D"><layer colorID="7" name="uni1F170_E0100"/></ColorGlyph><!-- 緑黒🟩🟩 -->
+<ColorGlyph name="uniE04D"><layer colorID="7" name="uni25AE_E0100"/></ColorGlyph><!-- 緑黒🟩🟩 -->
 <ColorGlyph name="uniE04E"><layer colorID="7" name="up_color"/><layer colorID="8" name="down_color"/></ColorGlyph><!-- 緑白🟩🟪 -->
 <ColorGlyph name="uniE04F"><layer colorID="7" name="up_color"/><layer colorID="9" name="down_color"/></ColorGlyph><!-- 緑白🟩🟫 -->
 
@@ -832,7 +1131,7 @@
 <ColorGlyph name="uniE055"><layer colorID="8" name="up_color"/><layer colorID="5" name="down_color"/></ColorGlyph><!-- 紫青🟪🟧 -->
 <ColorGlyph name="uniE056"><layer colorID="8" name="up_color"/><layer colorID="6" name="down_color"/></ColorGlyph><!-- 紫紫🟪🟨 -->
 <ColorGlyph name="uniE057"><layer colorID="8" name="up_color"/><layer colorID="7" name="down_color"/></ColorGlyph><!-- 紫黒🟪🟩 -->
-<ColorGlyph name="uniE058"><layer colorID="8" name="uni1F170_E0100"/></ColorGlyph><!-- 紫白🟪🟪 -->
+<ColorGlyph name="uniE058"><layer colorID="8" name="uni25AE_E0100"/></ColorGlyph><!-- 紫白🟪🟪 -->
 <ColorGlyph name="uniE059"><layer colorID="8" name="up_color"/><layer colorID="9" name="down_color"/></ColorGlyph><!-- 紫白🟪🟫 -->
 
 
@@ -845,7 +1144,7 @@
 <ColorGlyph name="uniE060"><layer colorID="9" name="up_color"/><layer colorID="6" name="down_color"/></ColorGlyph><!-- 茶紫🟫🟨 -->
 <ColorGlyph name="uniE061"><layer colorID="9" name="up_color"/><layer colorID="7" name="down_color"/></ColorGlyph><!-- 茶黒🟫🟩 -->
 <ColorGlyph name="uniE062"><layer colorID="9" name="up_color"/><layer colorID="8" name="down_color"/></ColorGlyph><!-- 茶白🟫🟪 -->
-<ColorGlyph name="uniE063"><layer colorID="9" name="uni1F170_E0100"/></ColorGlyph><!-- 茶白🟫🟫 -->
+<ColorGlyph name="uniE063"><layer colorID="9" name="uni25AE_E0100"/></ColorGlyph><!-- 茶白🟫🟫 -->
 
 
 <ColorGlyph name="uniE07C"><layer colorID="1" name="haba16"/></ColorGlyph><!-- 黒 -->
