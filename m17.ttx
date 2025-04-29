@@ -7,16 +7,26 @@
  
      <!-- ↓情報の'ℹ️'(u2139) -->
     <ColorGlyph name="u2139">
-      <layer colorID="4" name="SLOTuniE200"/><!-- 🟦　-->
+      <layer colorID="4" name="SLOTuniE200"/><!-- 🟦-->
       <layer colorID="2" name="u2139_01"/><!-- ⬜　-->
     </ColorGlyph>
 
     <!-- ↓情報の'✅'(u2705) -->
     <ColorGlyph name="u2705">
-      <layer colorID="56" name="u2705_01"/><!-- 00FF00　　-->
+      <layer colorID="56" name="u2705_01"/><!-- 00FF00-->
       <layer colorID="26" name="u2705_02"/><!-- ⬛-->
     </ColorGlyph>
 
+  <!-- ↓情報の'❘'(2758) -->
+  
+    <ColorGlyph name="uni2758">
+      <layer colorID="4" name="uni2758"/><!--155999999--><!-- 5600FF00--><!-- 4🟦-->
+    </ColorGlyph>
+
+  <!-- ↓情報の'⎯'(23AF) -->
+    <ColorGlyph name="uni23AF">
+      <layer colorID="4" name="uni23AF"/><!--155999999--><!-- 5600FF00--><!-- 4🟦-->
+    </ColorGlyph>
 
      <!-- ↓ハンマーとつるはし（ピック）の'⚒'(2692) -->
     <ColorGlyph name="u2692">
@@ -55,11 +65,12 @@
 
    <!-- ↓山'⛰'(u26F0) -->
     <ColorGlyph name="u26F0">
-      <layer colorID="56" name="SLOTuniE201"/><!-- 00FF00　-->
-      <layer colorID="155" name="SLOTuniE100"/><!-- 009900　-->
-
+      <layer colorID="155" name="SLOTuniE100"/><!-- 999999　-->
       <layer colorID="1" name="SLOTuniE101"/>
     </ColorGlyph>
+
+
+
 <!--<layer colorID="44" name=""/>--><!-- 009900　-->
 <!--<layer colorID="42" name="LowMountain02"/>--><!--CC6600-->
 <!--<layer colorID="49" name="LowMountain03"/>--><!--FF9900-->
@@ -105,6 +116,7 @@
     <!-- ↓広葉樹の'🌲'(u1F332) -->
     <ColorGlyph name="u1F332">
       <layer colorID="44" name="u1F332glyph01"/><!-- 009900　-->
+      <layer colorID="1" name="u1F332glyph02"/><!--　：黒　-->
       <layer colorID="49" name="u1F332glyph03"/><!--FF9900-->
       <layer colorID="42" name="u1F332glyph04"/><!-- CC6600-->
     </ColorGlyph>
@@ -159,11 +171,11 @@
 <!--6🟨-->
 <!--7🟩-->
 
-<!-- ↓広葉樹にバック緑4'􀌲'(u1F332　→　u100332) -->
+<!-- ↓緑背景に広葉樹'􀌲'(u1F332　→　u100332) -->
     <ColorGlyph name="u100332">
       <layer colorID="56" name="SLOTuniE201" />  
       <layer colorID="15" name="u1F332glyph01" />
-      <layer colorID="57" name="u1F332glyph02" />
+      <layer colorID="1" name="u1F332glyph02" /><!--　：黒　-->
       <layer colorID="49" name="u1F332glyph03" />
       <layer colorID="42" name="u1F332glyph04" />
     </ColorGlyph>
@@ -215,7 +227,7 @@
       <layer colorID="15" name="u1F333_03"/><!-- ↓葉っぱ：濃い緑　元々-->
     </ColorGlyph>
 
-    <!-- ↓🟩緑背景の落葉樹'🌳️'(u100333) -->
+    <!-- ↓🟩緑背景に落葉樹'🌳️'(u1F333　→　u100333) -->
       <ColorGlyph name="u100333">
       <layer colorID="56" name="SLOTuniE201" />
       <layer colorID="1" name="u1F333_01"/><!-- ↓枠線　：黒　-->
@@ -223,21 +235,45 @@
       <layer colorID="15" name="u1F333_03"/><!-- ↓葉っぱ：濃い緑　元々-->
     </ColorGlyph>
 
-
-    <!-- ↓桜の'🌸'(u1F338) -->
-      <ColorGlyph name="u1F338">
-      <layer colorID="1" name="u1F333_01"/><!-- ↓枠線　：黒　-->
-      <layer colorID="9" name="u1F333_02"/><!-- ↓木　　：茶　-->
-      <layer colorID="229" name="u1F333_03"/><!-- ↓桜色の葉っぱ：　FF99FF-->
-    </ColorGlyph>
-
-
 <!-- ↓サボテン'🌵'(u1f335) -->
     <ColorGlyph name="u1F335">
     <layer colorID="1" name="u1F335_0"/><!-- ⬛,11035,2b1b-->
     <layer colorID="44" name="u1F335_1"/><!-- ,59154,e712-->
     <layer colorID="7" name="u1F335_2"/><!-- 🟩,129001,1f7e9-->
     </ColorGlyph>  
+
+
+    <!-- ↓桜'🌸'(u1F338) -->
+      <ColorGlyph name="u1F338">
+      <layer colorID="1" name="u1F333_01"/><!-- ↓枠線　：黒　-->
+      <layer colorID="9" name="u1F333_02"/><!-- ↓木　　：茶　-->
+      <layer colorID="229" name="u1F333_03"/><!-- ↓桜色の葉っぱ：　FF99FF-->
+    </ColorGlyph>
+
+<!-- ↓🟩緑背景の桜'🌸'(u1F338→u100338) -->
+      <ColorGlyph name="u100338">
+      <layer colorID="56" name="SLOTuniE201" />
+      <layer colorID="1" name="u1F333_01"/><!-- ↓枠線　：黒　-->
+      <layer colorID="9" name="u1F333_02"/><!-- ↓木　　：茶　-->
+      <layer colorID="229" name="u1F333_03"/><!-- ↓桜色の葉っぱ：　FF99FF-->
+    </ColorGlyph>
+
+    <!-- ↓稲穂'🌾'(u1F33E) -->
+      <ColorGlyph name="u1F33E">
+      <layer colorID="6" name="u1F33E_01"/>
+      <layer colorID="1" name="u1F33E"/><!--1 黒-->
+      <layer colorID="15" name="u1F33E_02"/><!-- ↓葉っぱ：濃い緑-->
+    </ColorGlyph>
+    <!-- 6 🟨黄色-->
+    <!--55 FFCC00-->
+
+<!-- ↓🟩緑背景の稲穂'🌾'(u10033E) -->
+      <ColorGlyph name="u10033E">
+      <layer colorID="56" name="SLOTuniE201" />
+      <layer colorID="6" name="u1F33E_01"/>
+      <layer colorID="1" name="u1F33E"/><!--1 黒-->
+      <layer colorID="15" name="u1F33E_02"/><!-- ↓葉っぱ：濃い緑-->
+    </ColorGlyph>
 
 <!-- ↓雪山'🏔'(u1F3D4) -->
     <ColorGlyph name="u1F3D4">
@@ -251,7 +287,6 @@
 <!--<layer colorID="42" name="LowMountain02"/>--><!--CC6600-->
 <!--<layer colorID="49" name="LowMountain03"/>--><!--FF9900-->
 <!--<layer colorID="155" name="SLOTuniE100"/>--><!--999999-->
-
 
 
 <!-- ↓住宅街'🏘️'(u1F3D8) -->
@@ -391,24 +426,20 @@
     <layer colorID="2" name="u1FAA8_uFE0F_02"/><!-- ⬜　-->
    </ColorGlyph>  
 
-   <!-- ↓緑背景の炎の'🔥'(u100525) -->
-    <ColorGlyph name="u100525">
-      <layer colorID="56" name="SLOTuniE201"/><!-- 00FF00　-->
-      <layer colorID="3" name="u1F525_01"/><!-- 🟥　-->
-      <layer colorID="5" name="u1F525_02"/><!-- 🟧　-->
-      <layer colorID="6" name="u1F525_03"/><!--🟨 -->
-    </ColorGlyph>
-
-    <!-- ↓炎の'🔥'(u1F525) -->
+    <!-- ↓炎'🔥'(u1F525) -->
     <ColorGlyph name="u1F525">
       <layer colorID="3" name="u1F525_01"/><!-- 🟥　-->
       <layer colorID="5" name="u1F525_02"/><!-- 🟧　-->
       <layer colorID="6" name="u1F525_03"/><!--🟨 -->
     </ColorGlyph>
     
-
-
-    
+   <!-- ↓緑背景の炎'🔥'(u1F525→u100525) -->
+    <ColorGlyph name="u100525">
+      <layer colorID="56" name="SLOTuniE201"/><!-- 00FF00　-->
+      <layer colorID="3" name="u1F525_01"/><!-- 🟥　-->
+      <layer colorID="5" name="u1F525_02"/><!-- 🟧　-->
+      <layer colorID="6" name="u1F525_03"/><!--🟨 -->
+    </ColorGlyph>
 
     <!-- ↓ドアの'🚪'(u1F6AA) -->
     <ColorGlyph name="u1F6AA">
@@ -424,6 +455,7 @@
     <layer colorID="2" name="u1F6E3"/>
     </ColorGlyph>
 
+
   <!-- ↓道路の'🛣️'(u1F6E3_tate) -->
     <ColorGlyph name="u1F6E3_tate">
     <layer colorID="112" name="SLOTuniE201"/>
@@ -436,7 +468,6 @@
     <layer colorID="2" name="u1F6E3_uni200D_aj7481"/>
     </ColorGlyph>
 <!--666666　-->
-<!-- ⬜　-->
 
     <!-- ↓線路の'🛤'(1F6E4) -->
     <ColorGlyph name="u1F6E4">
@@ -444,9 +475,8 @@
       <layer colorID="155" name="u1F6E4_01"/><!--999999-->
     </ColorGlyph>
 
-    <!-- ↓緑背景の爆弾'💣️'(u1004A3) -->
-    <ColorGlyph name="u1004A3">
-      <layer colorID="56" name="SLOTuniE201"/><!-- 00FF00　-->
+    <!-- ↓爆弾'💣'(u1f4a3) -->
+    <ColorGlyph name="u1F4A3">
       <layer colorID="3" name="u1F4A3_0"/><!-- 🟥,128997,1f7e5-->
       <layer colorID="6" name="u1F4A3_1"/><!-- 🟨,129000,1f7e8-->
       <layer colorID="1" name="u1F4A3_2"/><!-- ⬛,11035,2b1b-->
@@ -454,8 +484,9 @@
       <layer colorID="2" name="u1F4A3_4"/><!-- ⬜,11036,2b1c-->
     </ColorGlyph>
 
-    <!-- ↓爆弾'💣'(u1f4a3) -->
-    <ColorGlyph name="u1F4A3">
+    <!-- ↓緑背景の爆弾'💣️'(u1004A3) -->
+    <ColorGlyph name="u1004A3">
+      <layer colorID="56" name="SLOTuniE201"/><!-- 00FF00　-->
       <layer colorID="3" name="u1F4A3_0"/><!-- 🟥,128997,1f7e5-->
       <layer colorID="6" name="u1F4A3_1"/><!-- 🟨,129000,1f7e8-->
       <layer colorID="1" name="u1F4A3_2"/><!-- ⬛,11035,2b1b-->
@@ -489,7 +520,6 @@
   </ColorGlyph>  
 
 
-
 <!-- ↓ヨット'⛵'(u26F5) -->
   <ColorGlyph name="u26F5">
     <layer colorID="4" name="SLOTuniE201"/><!-- 🟦　-->
@@ -510,7 +540,203 @@
     <layer colorID="5" name="u1F3F9_02"/><!-- 🟧,128999,1f7e7-->
     <layer colorID="16" name="u1F3F9_03"/><!-- ▓,9619,2593-->
     <layer colorID="4" name="u1F3F9_04"/><!-- 🟦,128998,1f7e6-->
-</ColorGlyph>  
+</ColorGlyph>
+
+<!-- ↓国旗・日本JP'🇯🇵'(u1F1EF_u1F1F5) -->
+<ColorGlyph name="u1F1EF_u1F1F5">
+    <layer colorID="2" name="u1F1EF_u1F1F5_01"/><!-- ⬜-->
+    <layer colorID="3" name="u1F1EF_u1F1F5_02"/><!-- 🟥-->
+    <layer colorID="26" name="kokkinowaku"/><!-- -->
+</ColorGlyph>
+
+<!-- ↓国旗・台湾TW'🇹🇼' -->
+<ColorGlyph name="u1F1F9_u1F1FC">
+    <layer colorID="3" name="u1F1F9_u1F1FC_01"/><!-- 🟥-->
+    <layer colorID="4" name="u1F1F9_u1F1FC_02"/><!-- 🟦-->
+    <layer colorID="2" name="u1F1F9_u1F1FC_03"/><!-- ⬜-->
+</ColorGlyph>
+
+<!-- ↓国旗・アメリカUS'🇺🇸' -->
+<ColorGlyph name="u1F1FA_u1F1F8">
+    <layer colorID="3" name="u1F1FA_u1F1F8_01"/><!-- 🟥-->
+    <layer colorID="4" name="u1F1FA_u1F1F8_02"/><!-- 🟦-->
+    <layer colorID="2" name="u1F1FA_u1F1F8_03"/><!-- ⬜-->
+    <layer colorID="26" name="kokkinowaku"/><!-- -->
+</ColorGlyph>
+
+<!-- ↓国旗・欧州連合EU'🇪🇺' -->
+<ColorGlyph name="u1F1EA_u1F1FA">
+    <layer colorID="4" name="u1F1EA_u1F1FA_01"/><!-- 🟦-->
+    <layer colorID="6" name="u1F1EA_u1F1FA_02"/><!-- 🟨-->
+</ColorGlyph>
+
+
+<!-- ↓国旗・中国CN'🇨🇳' -->
+<ColorGlyph name="u1F1E8_u1F1F3">
+    <layer colorID="3" name="u1F1E8_u1F1F3_01"/><!-- 🟥-->
+    <layer colorID="6" name="u1F1E8_u1F1F3_02"/><!-- 🟨-->
+</ColorGlyph>
+
+<!-- ↓国旗・イギリスGB'🇬🇧' -->
+<ColorGlyph name="u1F1EC_u1F1E7">
+    <layer colorID="2" name="u1F1EC_u1F1E7_01"/><!-- ⬜-->
+    <layer colorID="3" name="u1F1EC_u1F1E7_02"/><!-- 🟥-->
+    <layer colorID="4" name="u1F1EC_u1F1E7_03"/><!-- 🟦-->
+    <layer colorID="26" name="kokkinowaku"/><!-- -->
+</ColorGlyph>
+
+
+<!-- ↓国旗・ドイツDE'🇩🇪' -->
+<ColorGlyph name="u1F1E9_u1F1EA">
+    <layer colorID="26" name="u1F1E9_u1F1EA_01"/><!-- -->
+    <layer colorID="3" name="u1F1E9_u1F1EA_02"/><!-- 🟥-->
+    <layer colorID="5" name="u1F1E9_u1F1EA_03"/><!-- 🟧-->
+</ColorGlyph>
+
+<!-- ↓国旗・ロシアRU'🇷🇺' -->
+<ColorGlyph name="u1F1F7_u1F1FA">
+    <layer colorID="2" name="u1F1E9_u1F1EA_01"/><!-- ⬜-->
+    <layer colorID="4" name="u1F1E9_u1F1EA_02"/><!-- 🟦-->
+    <layer colorID="3" name="u1F1E9_u1F1EA_03"/><!-- 🟥-->
+    <layer colorID="26" name="kokkinowaku2"/><!-- -->
+</ColorGlyph>
+
+<!-- ↓国旗・オランダNL'🇳🇱' -->
+<ColorGlyph name="u1F1F3_u1F1F1">
+    <layer colorID="3" name="u1F1E9_u1F1EA_01"/><!-- 🟥-->
+    <layer colorID="2" name="u1F1E9_u1F1EA_02"/><!-- ⬜-->
+    <layer colorID="4" name="u1F1E9_u1F1EA_03"/><!-- 🟦-->
+    <layer colorID="26" name="kokkinowaku2"/><!-- -->
+</ColorGlyph>
+
+
+
+<!-- ↓国旗・オーストリアAT'🇦🇹' -->
+<ColorGlyph name="u1F1E6_u1F1F9">
+    <layer colorID="3" name="u1F1E9_u1F1EA_01"/><!-- 🟥-->
+    <layer colorID="2" name="u1F1E9_u1F1EA_02"/><!-- ⬜-->
+    <layer colorID="3" name="u1F1E9_u1F1EA_03"/><!-- 🟥-->
+    <layer colorID="26" name="kokkinowaku2"/><!-- -->
+</ColorGlyph>
+
+<!-- ↓国旗・ハンガリーHU'🇭🇺' -->
+<ColorGlyph name="u1F1ED_u1F1FA">
+    <layer colorID="3" name="u1F1E9_u1F1EA_01"/><!-- 🟥-->
+    <layer colorID="2" name="u1F1E9_u1F1EA_02"/><!-- ⬜-->
+    <layer colorID="56" name="u1F1E9_u1F1EA_03"/><!-- 🟩-->
+    <layer colorID="26" name="kokkinowaku2"/><!-- -->
+</ColorGlyph>
+
+<!-- ↓国旗・ブルガリアBG'🇧🇬' -->
+<ColorGlyph name="u1F1E7_u1F1EC">
+    <layer colorID="2" name="u1F1E9_u1F1EA_01"/><!-- ⬜-->
+    <layer colorID="56" name="u1F1E9_u1F1EA_02"/><!-- 🟩-->
+    <layer colorID="3" name="u1F1E9_u1F1EA_03"/><!-- 🟥-->
+    <layer colorID="26" name="kokkinowaku2"/><!-- -->
+</ColorGlyph>
+
+<!-- ↓国旗・インドネシアID'🇮🇩' -->
+<ColorGlyph name="u1F1EE_u1F1E9">
+    <layer colorID="3" name="u1F1EE_u1F1E9_01"/><!-- 🟥-->
+    <layer colorID="2" name="u1F1EE_u1F1E9_02"/><!-- ⬜-->
+    <layer colorID="26" name="kokkinowaku2"/><!-- -->
+</ColorGlyph>
+
+
+<!-- ↓国旗・ポーランドPL'🇵🇱' -->
+<ColorGlyph name="u1F1F5_u1F1F1">
+    <layer colorID="2" name="u1F1EE_u1F1E9_01"/><!-- ⬜-->
+    <layer colorID="3" name="u1F1EE_u1F1E9_02"/><!-- 🟥-->
+    <layer colorID="26" name="kokkinowaku2"/><!-- -->
+</ColorGlyph>
+
+<!-- ↓国旗・ウクライナUA'🇺🇦' -->
+<ColorGlyph name="u1F1FA_u1F1E6">
+    <layer colorID="4" name="u1F1EE_u1F1E9_01"/><!-- 🟦-->
+    <layer colorID="6" name="u1F1EE_u1F1E9_02"/><!-- 🟨-->
+    <layer colorID="26" name="kokkinowaku2"/><!-- -->
+</ColorGlyph>
+
+<!-- ↓国旗・チェコCH'🇨🇿' -->
+<ColorGlyph name="u1F1E8_u1F1FF">
+    <layer colorID="2" name="u1F1EE_u1F1E9_01"/><!-- ⬜-->
+    <layer colorID="3" name="u1F1EE_u1F1E9_02"/><!-- 🟥-->
+    <layer colorID="4" name="u1F1E8_u1F1FF_01"/><!-- 🟦-->
+    <layer colorID="26" name="kokkinowaku2"/><!-- -->
+</ColorGlyph>
+
+<!-- ↓国旗・ハプルブルク帝国'墺️' -->
+<ColorGlyph name="u58BA_FE0F">
+    <layer colorID="26" name="u1F1EE_u1F1E9_01"/><!-- -->
+    <layer colorID="6" name="u1F1EE_u1F1E9_02"/><!-- 🟨-->
+    <layer colorID="26" name="kokkinowaku2"/><!-- -->
+</ColorGlyph>
+
+
+<!-- ↓国旗・フランスFR'🇫🇷' -->
+<ColorGlyph name="u1F1EB_u1F1F7">
+    <layer colorID="4" name="u1F1EB_u1F1F7_01"/><!-- 🟦-->
+    <layer colorID="2" name="u1F1EB_u1F1F7_02"/><!-- ⬜-->
+    <layer colorID="3" name="u1F1EB_u1F1F7_03"/><!-- 🟥-->
+    <layer colorID="26" name="kokkinowaku"/><!-- -->
+</ColorGlyph>
+
+<!-- ↓国旗・イタリアIT'🇮🇹' -->
+<ColorGlyph name="u1F1EE_u1F1F9">
+    <layer colorID="56" name="u1F1EB_u1F1F7_01"/><!-- 🟩-->
+    <layer colorID="2" name="u1F1EB_u1F1F7_02"/><!-- ⬜-->
+    <layer colorID="3" name="u1F1EB_u1F1F7_03"/><!-- 🟥-->
+    <layer colorID="26" name="kokkinowaku"/><!-- -->
+</ColorGlyph>
+
+<!-- ↓国旗・ベルギーBE'🇧🇪' -->
+<ColorGlyph name="u1F1E7_u1F1EA">
+    <layer colorID="26" name="u1F1EB_u1F1F7_01"/><!-- -->
+    <layer colorID="6" name="u1F1EB_u1F1F7_02"/><!-- 🟨-->
+    <layer colorID="3" name="u1F1EB_u1F1F7_03"/><!-- 🟥-->
+    <layer colorID="26" name="kokkinowaku"/><!-- -->
+</ColorGlyph>
+
+<!-- ↓国旗・ナイジェリアNG'🇳🇬' -->
+<ColorGlyph name="u1F1F3_u1F1EC">
+    <layer colorID="56" name="u1F1EB_u1F1F7_01"/><!-- 🟩-->
+    <layer colorID="2" name="u1F1EB_u1F1F7_02"/><!-- ⬜-->
+    <layer colorID="56" name="u1F1EB_u1F1F7_03"/><!-- 🟩-->
+    <layer colorID="26" name="kokkinowaku"/><!-- -->
+</ColorGlyph>
+
+<!-- ↓国旗・ペルーPE'🇵🇪' -->
+<ColorGlyph name="u1F1F5_u1F1EA">
+    <layer colorID="3" name="u1F1EB_u1F1F7_01"/><!-- 🟥-->
+    <layer colorID="2" name="u1F1EB_u1F1F7_02"/><!-- ⬜-->
+    <layer colorID="3" name="u1F1EB_u1F1F7_03"/><!-- 🟥-->
+    <layer colorID="26" name="kokkinowaku"/><!-- -->
+</ColorGlyph>
+
+<!-- ↓国旗・スイスCH'🇨🇭' -->
+<ColorGlyph name="u1F1E8_u1F1ED">
+    <layer colorID="3" name="u1F1E8_u1F1ED_01"/><!-- 🟥-->
+    <layer colorID="2" name="u1F1E8_u1F1ED_02"/><!-- ⬜-->
+</ColorGlyph>
+
+<!-- ↓国旗・トルコTR'🇹🇷' -->
+<ColorGlyph name="u1F1F9_u1F1F7">
+    <layer colorID="3" name="u1F1F9_u1F1F7_01"/><!-- 🟥-->
+    <layer colorID="2" name="u1F1F9_u1F1F7_02"/><!-- ⬜-->
+</ColorGlyph>
+
+<!-- ↓国旗・プロイセン王国'普️' -->
+<ColorGlyph name="u666E_FE0F">
+    <layer colorID="2" name="u666E_FE0F_01"/><!-- ⬜-->
+    <layer colorID="26" name="u666E_FE0F_02"/><!-- -->
+    <layer colorID="6" name="u666E_FE0F_03"/><!-- 🟨-->
+    <layer colorID="26" name="kokkinowaku2"/><!-- -->
+</ColorGlyph>
+
+
+
+
+
     <!-- ↓ドラクエ３の草原􀀀 -->
     <ColorGlyph name="u100000">
       <layer colorID="56" name="SLOTuniE201"/><!-- 00FF00　-->
